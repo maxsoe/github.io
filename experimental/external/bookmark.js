@@ -1,5 +1,7 @@
 javascript: (function () { 
     var jsCode = document.createElement('script'); 
-    jsCode.setAttribute('src', 'tvshows.js');                  
+    jsCode.setAttribute('src', 'http://maxsoe.github.io/experimental/external/tvshows.js');                  
   document.body.appendChild(jsCode); 
  }());
+ 
+ 
