@@ -88,7 +88,7 @@
 			show_title == "The Simpsons" ||
 			show_title == "The Walking Dead" ||
 			show_title == "True Blood" ||
-			show_title == "Ultimate Spider-man" ||
+			show_title == "Ultimate Spider-Man" ||
 			show_title == "Under the Dome"
 			)
 			 {
