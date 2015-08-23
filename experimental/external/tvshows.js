@@ -74,6 +74,7 @@
 			show_title == "From Dusk Till Dawn: The Series" ||
 			show_title == "Game of Thrones" ||
 			show_title == "Gotham" ||
+			show_title == "Heroes Reborn" ||
 			show_title == "Louie" ||
 			show_title == "Modern Family" ||
 			show_title == "New Girl" ||
