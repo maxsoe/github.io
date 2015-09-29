@@ -64,6 +64,7 @@
 			show_title == "Arrow" ||
 			show_title == "Avengers Assemble" ||
 			show_title == "Beware the Batman" ||
+			show_title == "Bob/'s Burgers" ||
 			show_title == "The Big Bang Theory" ||
 			show_title == "Brooklyn Nine-Nine" ||
 			show_title == "Californication" ||
