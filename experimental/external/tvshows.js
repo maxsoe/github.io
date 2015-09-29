@@ -65,7 +65,6 @@
 			show_title == "Avengers Assemble" ||
 			show_title == "Beware the Batman" ||
 			show_title == "The Big Bang Theory" ||
-			show_title == "Bob&apos;s Burgers" ||
 			show_title == "Brooklyn Nine-Nine" ||
 			show_title == "Californication" ||
 			show_title == "Community" ||
