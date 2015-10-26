@@ -62,6 +62,7 @@
 		if (
 			show_title == "Archer" ||
 			show_title == "Arrow" ||
+			show_title == "Ash vs Evil Dead" ||
 			show_title == "Avengers Assemble" ||
 			show_title == "Beware the Batman" ||
 			show_title == "The Big Bang Theory" ||
