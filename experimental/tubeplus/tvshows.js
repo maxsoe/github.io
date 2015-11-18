@@ -83,6 +83,7 @@
 			show_title == "Orange Is the New Black" ||
 			show_title == "Powers" ||
 			show_title == "Raising Hope" ||
+			show_title == "Rick and Morty" ||
 			show_title == "South Park" ||
 			show_title == "Star Wars Rebels" ||
 			show_title == "Supergirl" ||
