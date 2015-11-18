@@ -85,6 +85,7 @@
 			show_title == "Raising Hope" ||
 			show_title == "South Park" ||
 			show_title == "Star Wars Rebels" ||
+			show_title == "Supergirl" ||
 			show_title == "Teenage Mutant Ninja Turtles" ||
 			show_title == "The Flash" ||
 			show_title == "The Legend of Korra" ||
