@@ -1,5 +1,7 @@
 ## Website Performance Optimization portfolio project
 
+To try the pizza app, please visit http://maxsoe.github.io/frontend-nanodegree-mobile-portfolio/views/pizza.html
+
 ####Part 1: Optimize PageSpeed Insights score for index.html
 
 Optimizations made:
