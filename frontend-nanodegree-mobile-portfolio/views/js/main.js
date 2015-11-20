@@ -446,6 +446,7 @@ var resizePizzas = function(size) {
 
   // Iterates through pizza elements on the page and changes their widths as a percentage
   function changePizzaSizes(size) {
+    var newwidth;
     switch (size) {
       case "1":
         newwidth = 25;
@@ -481,7 +482,7 @@ var resizePizzas = function(size) {
 window.performance.mark("mark_start_generating"); // collect timing data
 
 // This for-loop actually creates and appends all of the pizzas when the page loads
-var pizzasDiv = document.getElementById("randomPizzas");
+var pizzasDiv = document.getElementById("randomPizzas"); // Get randomPizzas from DOM
 for (var i = 2; i < 100; i++) {
   pizzasDiv.appendChild(pizzaElementGenerator(i));
 }
@@ -545,6 +546,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var rows = Math.floor(screenHeight / s); // find out how many rows of pizzas we need to generate in the background
   var totalPizzas = rows * cols; // total number of pizzas we need to generate
   var elem;
+  var movingPizzas = document.getElementById("movingPizzas1"); // Get movingPizzas1 from DOM
   for (var i = 0; i < totalPizzas; i++) {
     elem = document.createElement('img');
     elem.className = 'mover';
@@ -553,7 +555,7 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.style.width = "73.333px";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
-    document.getElementById("movingPizzas1").appendChild(elem);
+    movingPizzas.appendChild(elem);
   }
   requestAnimationFrame(updatePositions);
 });
