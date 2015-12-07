@@ -1,10 +1,12 @@
+var zip = new JSZip();
+
 function loadData() {
   // input URL into the text field. must include http
   var myURL = $('#myurl').val();
   //URL needs to be in the format http://blahblah/.../pictures/album/... it's usually the page with all the pics
-
   var $body = $('body');
 
+  // Check to see that URL is formatted correctly
   var match = (/^http:\/\//i);
   if (match.test(myURL)) {
     startProcessing(myURL);
@@ -34,6 +36,27 @@ function startProcessing(myURL) {
     }
     feedbackLog("DONE!");
   });
+
+  function downloadFromURL(url) {
+    // var textStr = ('Running downloadFromURL() on ' +url);
+    feedbackLog('Running downloadFromURL() on ' + url);
+
+    $.ajax({
+      url: "http://query.yahooapis.com/v1/public/yql?q=select * from html where url =" + "'" + url + "'" + "&format=json",
+      type: 'GET',
+      dataType: 'json'
+    }).done(function(response) {
+      var interestedObject = response.query.results.body.div.article.section.div[0].div[1].figure.div[1].div.div[2].ul[1].li[1].a;
+      feedbackLog('Acquire image from ' + url);
+
+      // var $body = $('body');
+      // $body.append('<h1>' +url +'</h1>');
+      // $body.append(json2html(interestedObject));
+      var imageToDownload = "http:" + interestedObject.href;
+      feedbackLog('Download image from ' + '<a href="' + imageToDownload + '">' + imageToDownload + '</a>');
+
+    });
+  }
 }
 
 function time() {
@@ -50,26 +73,7 @@ function time() {
   }
 }
 
-function downloadFromURL(url) {
-  // var textStr = ('Running downloadFromURL() on ' +url);
-  feedbackLog('Running downloadFromURL() on ' + url);
 
-  $.ajax({
-    url: "http://query.yahooapis.com/v1/public/yql?q=select * from html where url =" + "'" + url + "'" + "&format=json",
-    type: 'GET',
-    dataType: 'json'
-  }).done(function(response) {
-    var interestedObject = response.query.results.body.div.article.section.div[0].div[1].figure.div[1].div.div[2].ul[1].li[1].a;
-    feedbackLog('Acquire image from ' + url);
-
-    // var $body = $('body');
-    // $body.append('<h1>' +url +'</h1>');
-    // $body.append(json2html(interestedObject));
-    var imageToDownload = "http:" + interestedObject.href;
-    feedbackLog('Download image from ' + '<a href="' + imageToDownload + '">' + imageToDownload + '</a>');
-
-  });
-}
 
 function feedbackLog(str) {
   $('.feedback-log ul').append('<li>' + time() + ' - ' + str + '</li>');
