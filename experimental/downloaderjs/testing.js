@@ -53,7 +53,7 @@ function startProcessing(myURL) {
       // $body.append('<h1>' +url +'</h1>');
       // $body.append(json2html(interestedObject));
       var imageToDownload = "http:" + interestedObject.href;
-      feedbackLog('Download image from ' + '<a href="' + imageToDownload + '">' + imageToDownload + '</a>');
+      feedbackLog('Download image from ' + '<a href="' + imageToDownload + '" download >' + imageToDownload + '</a>');
 
     });
   }
