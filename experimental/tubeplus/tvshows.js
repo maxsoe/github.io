@@ -77,6 +77,7 @@
 			show_title == "Gotham" ||
 			show_title == "Heroes Reborn" ||
 			show_title == "Jessica Jones" ||
+			show_title == "Legends of Tomorrow" ||
 			show_title == "Louie" ||
 			show_title == "Modern Family" ||
 			show_title == "New Girl" ||
