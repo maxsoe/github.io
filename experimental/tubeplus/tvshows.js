@@ -55,7 +55,8 @@
 			season_n_episode_number = season_number.concat(episode_number);
 			<!-- console.log("Episode: " +season_n_episode_number); -->
 		}
-
+		
+		var sunnyShow = "It’s Always Sunny in Philadelphia";
 
 		<!-- Change the date holder -->
 		if (
@@ -76,6 +77,7 @@
 			show_title == "Guardians of the Galaxy" ||
 			show_title == "Gotham" ||
 			show_title == "Heroes Reborn" ||
+			show_title == sunnyShow ||
 			show_title == "Jessica Jones" ||
 			show_title == "Legends of Tomorrow" ||
 			show_title == "Louie" ||
