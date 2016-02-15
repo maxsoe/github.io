@@ -108,6 +108,7 @@
 			<!-- mydate[0].innerHTML = show_title +" - " +season_n_episode_number; -->
 			
 			var search_title = show_title.replace(/'/g, "");
+			var res = str.replace(/'/g, "");
 
 			var search_string = search_title + " - " +season_n_episode_number +" 720p";
 			<!-- console.log("Search for "+search_title); -->
@@ -116,6 +117,7 @@
 			<!-- Torrentzproxy string -->
 			mydate[0].innerHTML = " <a target=_blank href=\"https://torrentz.eu/search?f= " +search_string +"\">Get torrent</a>";
 			console.log(mydate[0].innerHTML);
+			alert(mydate[0].innerHTML);
 		}
 
 
