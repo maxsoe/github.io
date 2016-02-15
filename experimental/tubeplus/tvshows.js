@@ -115,7 +115,7 @@
 
 			<!-- Torrentzproxy string -->
 			mydate[0].innerHTML = " <a target=_blank href=\"https://torrentz.eu/search?f= " +search_string +"\">Get torrent</a>";
-			<!-- console.log(mydate[0].innerHTML); -->
+			console.log(mydate[0].innerHTML);
 		}
 
 
