@@ -108,6 +108,7 @@
 			<!-- mydate[0].innerHTML = show_title +" - " +season_n_episode_number; -->
 			
 			var search_title = show_title.replace(/'/g, "");
+			console.log("Search title is " +search_title);
 
 			var search_string = search_title + " - " +season_n_episode_number +" 720p";
 			<!-- console.log("Search for "+search_title); -->
