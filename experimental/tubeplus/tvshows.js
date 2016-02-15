@@ -57,6 +57,7 @@
 		}
 		
 		var sunnyShow = "It’s Always Sunny in Philadelphia";
+		var bobsBurgers = "Bob’s Burgers";
 
 		<!-- Change the date holder -->
 		if (
@@ -65,6 +66,7 @@
 			show_title == "Ash vs Evil Dead" ||
 			show_title == "Avengers Assemble" ||
 			show_title == "Beware the Batman" ||
+			show_title == bobsBurgers ||
 			show_title == "The Big Bang Theory" ||
 			show_title == "Brooklyn Nine-Nine" ||
 			show_title == "Californication" ||
