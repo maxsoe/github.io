@@ -9,5 +9,5 @@ console.log("This is the correct branch");
 
 // console.log(container[0]);
 
-
-console.log($(".sectionWrapper > div"));
+var target = $(".sectionWrapper > div");
+console.log("target");
