@@ -7,5 +7,5 @@ console.log("This is the correct branch");
 // console.log(container[0]);
 
 var target = $(".sectionWrapper");
-target.css("background-color","red");
+$target.css("background-color","red");
 console.log("target");
