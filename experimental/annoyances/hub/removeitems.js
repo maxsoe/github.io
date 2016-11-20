@@ -1,3 +1,13 @@
-var container = document.getElementsByClassName("sectionWrapper");
+
 console.log("This is the correct branch");
-console.log(container[0]);
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+// var container = document.getElementsByClassName("sectionWrapper");
+
+// console.log(container[0]);
+
+
+console.log($(".sectionWrapper > div"));
