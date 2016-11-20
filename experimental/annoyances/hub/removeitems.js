@@ -1,2 +1,2 @@
 var container = document.getElementsByClassName("sectionWrapper");
-console.log("container");
+console.log(container);
