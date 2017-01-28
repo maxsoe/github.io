@@ -3,7 +3,7 @@
 {
   "manifest_version": 2,
 
-  "name": "My extenion to get rid of annoyances",
+  "name": "My extenion to modify various sites",
   "description": "Multiple sites",
   "version": "0.1",
   "icons": { "16": "icon/icon16.png",
@@ -23,6 +23,17 @@
         "http://www.watchseries.ac/*"
       ],
       "css": ["watchseries/mycss.css"]
+    },
+    {
+      "matches": [
+        "https://trakt.tv/*"
+      ],
+      "js" : ["js/jquery-3.1.1.min.js","trakttv/myscript.js"]
     }
-  ]
+  ],
+
+  "web_accessible_resources": [
+        "trakttv/mycss.css",
+        "trakttv/myhtml.html"
+    ]
 }
