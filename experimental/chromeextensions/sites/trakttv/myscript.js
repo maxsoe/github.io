@@ -13,17 +13,32 @@ $(window).ready(function() {
 
 // Watch a show
 $(".watch-now").click (function () {
-  console.log("Watch now content: ",$("#watch-now-content").get());
+  // console.log("Watch now content: ",$("#watch-now-content").get());
 
+  insertThisFile('trakttv/myhtml.html');
   // Get html doc
-  // var $myDoc = $.get(chrome.extension.getURL('trakttv/myhtml.html'));
-  // console.log("myDoc is ", $.parseHTML($myDoc));
-  // $("#ondeck-wrapper").prepend("<div>test</div>");
-
-  $.get(chrome.extension.getURL('trakttv/myhtml.html'), function(data) {
-      // $(data).appendTo('#ondeck-wrapper');
-    $(data).appendTo('#watch-now-content');
-    // Or if you're using jQuery 1.8+:
-    // $($.parseHTML(data)).appendTo('body');
-  });
+  // var myURL = chrome.extension.getURL('trakttv/myhtml.html');
+  //
+  // $.get( myURL, function( myHTML ) {
+  //   console.log("myhtml is : ", myHTML);
+  //   var newItem = $(myHTML).filter('.test')[0].outerHTML;
+  //   $("#watch-now-content").prepend(newItem);
+  // });
 });
+
+function insertThisFile(myURL) {
+  var processedURL = chrome.extension.getURL(myURL);
+  console.log("myURL is", myURL);
+  console.log("myURL is recognised as", processedURL);
+  $.get( processedURL, function( myHTML ) {
+    console.log("myHTML is : ", myHTML);
+    var watchNowContent = $("#watch-now-content").get();
+    console.log("Watch now content: ", watchNowContent);
+    console.log("first child is : ", watchNowContent[0].firstChild);
+    // $("#watch-now-content").replaceWith(myHTML);
+
+  });
+
+  // var newItem = $(thisURL).filter('.test')[0].outerHTML;
+  // console.log("Contents of thisURL is ", newItem);
+}
