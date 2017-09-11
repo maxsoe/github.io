@@ -45,6 +45,10 @@ function insertThisFile(myURL) {
     console.log("the children are: ", rowArray);
     console.log("row length is: ", rowArray.length);
 
+    // Set up container in HTML
+    var myContainer = '<div class="strava_clone container"></div>'
+    $(".resultsContainer--gP9T").before(myContainer);
+
     for (i = 0; i < rowArray.length; i++) {
       columnArray = rowArray[i].children;
       // console.log("row[" +i +"] is ", columnArray);
@@ -101,7 +105,8 @@ function insertThisFile(myURL) {
       outputHTML = outputHTML.replace("<edit></edit>", edit.outerHTML);
 
       console.log("outputHTML is: ", outputHTML);
-      $(".resultsContainer--gP9T").before(outputHTML);
+
+      $(".strava_clone").append(outputHTML);
     }
 
 
