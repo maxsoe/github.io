@@ -44,10 +44,19 @@ function insertThisFile(myURL) {
 
     for (i = 0; i < rowArray.length; i++) {
       columnArray = rowArray[i].children;
-      console.log("row[" +i +"] is ", columnArray);
+      // console.log("row[" +i +"] is ", columnArray);
 
       var map = columnArray[0].firstChild.firstChild;
-      console.log("map is ", map);
+      console.log("map " +i +": ", map);
+
+      var date = columnArray[1].firstChild.firstChild;
+      console.log("date " +i +": ", date);
+
+      var distance = columnArray[2].firstChild.firstChild;
+      console.log("distance " +i +": ", distance);
+
+      var distanceUnit = columnArray[2].firstChild.children[1];
+      console.log("distance unit " +i +": ", distanceUnit);
     }
 
     // console.log("row 0 is: ", row[0]);
