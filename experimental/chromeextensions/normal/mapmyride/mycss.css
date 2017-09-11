@@ -4,11 +4,16 @@
   display: none !important;
 }
 
-/*Testing if the script is working*/
-.pageHeaderContainer-3LWw- {
-  background: green;
+.card_strava {
+  width: 220px;
+  float: left;
+  margin: 0 10px;
 }
-
 .card_strava .thumbnail-1td55 {
   width: unset;
+}
+
+/*Ensure pagination is cleared*/
+.container-33o3x {
+  clear: both;
 }

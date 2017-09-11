@@ -1,5 +1,3 @@
-
-
 $(window).ready(function() {
   console.log("Max's mapmyride script is ready to go");
 
@@ -90,7 +88,7 @@ function insertThisFile(myURL) {
       outputHTML = myHTML.replace("<map></map>", map.outerHTML);
 
       // change map size
-      outputHTML = outputHTML.replace("size=100x100", "size=400x400");
+      outputHTML = outputHTML.replace("size=100x100", "size=220x124");
       outputHTML = outputHTML.replace("<date></date>", date.outerHTML);
       outputHTML = outputHTML.replace("<distance></distance>", distance.outerHTML);
       outputHTML = outputHTML.replace("<distanceUnit></distanceUnit>", distanceUnit.outerHTML);
