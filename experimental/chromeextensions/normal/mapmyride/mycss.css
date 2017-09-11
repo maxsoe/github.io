@@ -1,7 +1,7 @@
 
 /*Stuff to hide*/
 .resultsContainer--gP9T {
-  display: none !important;
+  /*display: none !important;*/
 }
 
 .strava_clone.container {
@@ -98,4 +98,9 @@
 /*Ensure pagination is cleared*/
 .container-33o3x {
   clear: both;
+}
+
+.container-33o3x > div > div:not(.next-2ykbi),
+.container-33o3x > div > .bookends-2LzOT {
+  display: none !important;
 }
