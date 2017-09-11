@@ -1,0 +1,15 @@
+
+/*Stuff to hide*/
+#huckster-desktop-wrapper,
+#huckster-desktop-sidenav {
+  display: none !important;
+}
+
+/*Testing if the script is working*/
+#ondeck-wrapper {
+  background: green;
+}
+
+#watch-now-content .streaming-links {
+  background: green;
+}

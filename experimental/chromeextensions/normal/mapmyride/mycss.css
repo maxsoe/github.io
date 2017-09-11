@@ -1,0 +1,10 @@
+
+/*Stuff to hide*/
+#huckster-desktop-sidenav {
+  display: none !important;
+}
+
+/*Testing if the script is working*/
+.pageHeaderContainer-3LWw- {
+  background: green;
+}
