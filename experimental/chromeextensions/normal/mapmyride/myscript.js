@@ -57,6 +57,15 @@ function insertThisFile(myURL) {
 
       var distanceUnit = columnArray[2].firstChild.children[1];
       console.log("distance unit " +i +": ", distanceUnit);
+
+      var elevation = columnArray[3].firstChild.firstChild;
+      console.log("elevation " +i +": ", elevation);
+
+      var elevationUnit = columnArray[3].firstChild.children[1];
+      console.log("elevation unit " +i +": ", elevationUnit);
+
+      var name = columnArray[4].firstChild;
+      console.log("name " +i +": ", name);
     }
 
     // console.log("row 0 is: ", row[0]);
