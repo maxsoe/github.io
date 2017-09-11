@@ -66,6 +66,18 @@ function insertThisFile(myURL) {
 
       var name = columnArray[4].firstChild;
       console.log("name " +i +": ", name);
+
+      var city = columnArray[5].firstChild;
+      console.log("city " +i +": ", city);
+
+      var privacy = columnArray[6].firstChild;
+      console.log("privacy " +i +": ", privacy);
+
+      var copy = columnArray[7].children[0];
+      console.log("copy " +i +": ", copy);
+
+      var edit = columnArray[7].children[1];
+      console.log("ride " +i +": ", edit);
     }
 
     // console.log("row 0 is: ", row[0]);
