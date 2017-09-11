@@ -91,7 +91,9 @@ function insertThisFile(myURL) {
 
       outputHTML = outputHTML.replace("<date></date>", date.outerHTML);
       outputHTML = outputHTML.replace("<distance></distance>", distance.outerHTML);
+      outputHTML = outputHTML.replace("<distanceUnit></distanceUnit>", distanceUnit.outerHTML);
       outputHTML = outputHTML.replace("<elevation></elevation>", elevation.outerHTML);
+      outputHTML = outputHTML.replace("<elevationUnit></elevationUnit>", elevationUnit.outerHTML);
       outputHTML = outputHTML.replace("<name></name>", name.outerHTML);
       outputHTML = outputHTML.replace("<city></city>", city.data);
       outputHTML = outputHTML.replace("<privacy></privacy>", privacy.outerHTML);
