@@ -14,6 +14,11 @@ $(window).ready(function() {
   insertThisFile('mapmyride/myhtml.html');
 });
 
+// Update the contents of the page when using pagination
+// $(".button-j8tje").click (function() {
+//   insertThisFile('mapmyride/myhtml.html');
+// });
+
 // Watch a show
 $(".watch-now").click (function () {
   // console.log("Watch now content: ",$("#watch-now-content").get());
@@ -35,7 +40,7 @@ function insertThisFile(myURL) {
   console.log("myURL is", myURL);
   console.log("myURL is recognised as", processedURL);
   $.get( processedURL, function( myHTML ) {
-    console.log("myHTML is: ", myHTML);
+    // console.log("myHTML is: ", myHTML);
     var currentPageContent = $(".tableContainer-3g8hA tbody").get();
     console.log("Content on the current page is: ", currentPageContent);
     var rowArray = currentPageContent[0].children;
@@ -78,7 +83,26 @@ function insertThisFile(myURL) {
 
       var edit = columnArray[7].children[1];
       console.log("ride " +i +": ", edit);
+
+      // Replace elements in HTML
+
+
+      outputHTML = myHTML.replace("<map></map>", map.outerHTML);
+
+      outputHTML = outputHTML.replace("<date></date>", date.outerHTML);
+      outputHTML = outputHTML.replace("<distance></distance>", distance.outerHTML);
+      outputHTML = outputHTML.replace("<elevation></elevation>", elevation.outerHTML);
+      outputHTML = outputHTML.replace("<name></name>", name.outerHTML);
+      outputHTML = outputHTML.replace("<city></city>", city.data);
+      outputHTML = outputHTML.replace("<privacy></privacy>", privacy.outerHTML);
+      outputHTML = outputHTML.replace("<copy></copy>", copy.outerHTML);
+      outputHTML = outputHTML.replace("<edit></edit>", edit.outerHTML);
+
+      console.log("outputHTML is: ", outputHTML);
+      $(".resultsContainer--gP9T").before(outputHTML);
     }
+
+
 
     // console.log("row 0 is: ", row[0]);
     // console.log("first child is: ", currentPageContent[0].firstChild);
