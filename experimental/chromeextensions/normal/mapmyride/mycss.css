@@ -101,6 +101,7 @@
 }
 
 .container-33o3x > div > div:not(.next-2ykbi),
-.container-33o3x > div > .bookends-2LzOT {
+.container-33o3x > div > .bookends-2LzOT,
+.container-33o3x > div > .next-2ykbi.disabled-qXPsi {
   display: none !important;
 }
