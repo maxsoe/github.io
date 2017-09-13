@@ -20,7 +20,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.mapmyride.com/routes/my_routes/"
+        "https://www.mapmyride.com/routes/my_routes*"
       ],
       "css": ["mapmyride/mycss.css"],
       "js" : ["js/jquery-3.1.1.min.js","mapmyride/myscript.js"],

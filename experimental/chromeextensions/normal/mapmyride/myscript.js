@@ -3,14 +3,17 @@ $(window).ready(function() {
 
   // Insert HTML file
   createContainer();
-  insertThisFile('mapmyride/myhtml.html');
+  // insertThisFile('mapmyride/myhtml.html');
 });
 
 // Update the contents of the page when using pagination
 $(".container-33o3x").on("click", ".default-1VxRe", function() {
-  //  $(this).css({"backgroundColor" : "green"});
-   console.log("button clicked ", $(this));
-   insertThisFile('mapmyride/myhtml.html');
+  // console.log("button clicked ", $(this));
+  insertThisFile('mapmyride/myhtml.html');
+});
+
+$(".container-33o3x").on("click", ".disabled-qXPsi", function() {
+   $(this).css({"display" : "none"});
 });
 
 // Set up container
@@ -25,14 +28,16 @@ function insertThisFile(myURL) {
   // console.log("myURL is recognised as", processedURL);
   $.get( processedURL, function( myHTML ) {
     // console.log("myHTML is: ", myHTML);
+
     var currentPageContent = $(".tableContainer-3g8hA tbody").get();
     // console.log("Content on the current page is: ", currentPageContent);
+
     var rowArray = currentPageContent[0].children;
-    console.log("the children are: ", rowArray);
+    // console.log("the children are: ", rowArray);
     // console.log("row length is: ", rowArray.length);
 
-    for (i = 0; i < rowArray.length; i++) {
-      columnArray = rowArray[i].children;
+    for (var i = 0; i < rowArray.length; i++) {
+      var columnArray = rowArray[i].children;
       // console.log("row[" +i +"] is ", columnArray);
       var map = columnArray[0].firstChild.firstChild;
       // console.log("map " +i +": ", map);
@@ -47,7 +52,7 @@ function insertThisFile(myURL) {
       var elevationUnit = columnArray[3].firstChild.children[1];
       // console.log("elevation unit " +i +": ", elevationUnit);
       var name = columnArray[4].firstChild;
-      console.log("name " +i +": ", name);
+      // console.log("name " +i +": ", name);
       var city = columnArray[5].firstChild;
       // console.log("city " +i +": ", city);
       var privacy = columnArray[6].firstChild;
@@ -70,12 +75,9 @@ function insertThisFile(myURL) {
       outputHTML = outputHTML.replace("<privacy></privacy>", privacy.outerHTML);
       outputHTML = outputHTML.replace("<copy></copy>", copy.outerHTML);
       outputHTML = outputHTML.replace("<edit></edit>", edit.outerHTML);
-      // console.log("outputHTML is: ", outputHTML);
-      console.log("This is card number", i, name);
-
-      console.log("outputHTML is: ", outputHTML);
-
       $(".strava_clone").append(outputHTML);
     }
+    // console.log("myHTML is: ", myHTML);
+    // console.log("outputHTML is: ", outputHTML);
   });
 }
