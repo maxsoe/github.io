@@ -99,17 +99,3 @@
 .container-33o3x {
   clear: both;
 }
-
-/*Hide unnecessary buttons in pagination*/
-.container-33o3x > div > div:not(.next-2ykbi),
-.container-33o3x > div > .bookends-2LzOT{
-  display: none !important;
-}
-
-/*Manipulate next-page text*/
-.container-33o3x > div > .next-2ykbi > .inner-1mfs0 > span {
-  display: none;
-}
-.container-33o3x > div > .next-2ykbi > .inner-1mfs0:after {
-  content: 'Show more';
-}

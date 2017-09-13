@@ -1,20 +1,23 @@
 $(window).ready(function() {
   console.log("Max's mapmyride script is ready to go");
-
-  // Insert HTML file
-  createContainer();
-  // insertThisFile('mapmyride/myhtml.html');
 });
 
-// Update the contents of the page when using pagination
-$(".container-33o3x").on("click", ".default-1VxRe", function() {
-  // console.log("button clicked ", $(this));
+// when there are changes in the target (the table)
+var observer = new MutationObserver (function(mutations){
+  $(".strava_clone").remove(); // reset the new container
+  createContainer(); // create the container
   insertThisFile('mapmyride/myhtml.html');
 });
 
-$(".container-33o3x").on("click", ".disabled-qXPsi", function() {
-   $(this).css({"display" : "none"});
-});
+// types of things to observe
+var observerConfig = {
+  childList: true,
+  subtree: true
+};
+
+// Define the target for observer
+var targetNode = document.querySelector('.tableContainer-3g8hA');
+observer.observe(targetNode, observerConfig);
 
 // Set up container
 function createContainer() {
