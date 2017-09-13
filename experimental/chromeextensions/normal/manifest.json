@@ -11,7 +11,7 @@
           "128": "icon/icon128.png" },
 
   "browser_action": {
-    "default_icon": "icon/icon.png"
+    "default_icon": "icon/icon16.png"
   },
   "permissions": [
     "activeTab"
@@ -20,22 +20,15 @@
   "content_scripts": [
     {
       "matches": [
-        "http://www.watchseries.ac/*"
+        "https://www.mapmyride.com/routes/my_routes*"
       ],
-      "css": ["watchseries/mycss.css"]
-    },
-    {
-      "matches": [
-        "https://trakt.tv/*"
-      ],
-      "js" : ["js/jquery-3.1.1.min.js","trakttv/myscript.js"],
+      "css": ["mapmyride/mycss.css"],
+      "js" : ["js/jquery-3.1.1.min.js","mapmyride/myscript.js"],
       "run_at": "document_end"
     }
   ],
 
   "web_accessible_resources": [
-        "trakttv/mycss.css",
-        "trakttv/myhtml.html",
-        "trakttv/insertHTML.js"
+        "mapmyride/*"
     ]
 }
