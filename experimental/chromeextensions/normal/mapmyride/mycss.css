@@ -1,0 +1,101 @@
+
+/*Stuff to hide*/
+.resultsContainer--gP9T {
+  display: none !important;
+}
+
+.strava_clone.container {
+  color: #999;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 1em;
+  width: 100%;
+}
+
+.strava_clone .card {
+  background: #f7f7f7;
+  margin-bottom: 24px;
+  width: 220px;
+}
+
+.strava_clone .body,
+.strava_clone .footer {
+  padding: 0 10px;
+}
+
+.strava_clone .body {
+}
+
+.strava_clone .thumbnail-1td55 {
+  width: unset;
+}
+
+.strava_clone .name {
+  font-size: 18px;
+  font-weight: 300px;
+  line-height: 1.2em;
+  margin-top: 6px;
+  min-height: 3em;
+}
+
+.strava_clone .city {
+  font-size: 12px;
+  line-height: 1.4em;
+  margin-top: 6px;
+}
+
+.strava_clone .metrics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  line-height: 1.4em;
+  margin-top: 6px;
+}
+
+.strava_clone .distance,
+.strava_clone .elevation {
+  color: #333;
+  font-size: 22px;
+  font-weight: 300px;
+}
+
+.strava_clone [data-unit=""] {
+  font-size: 16px;
+}
+
+.strava_clone .distance p,
+.strava_clone .elevation p {
+  color: #999;
+  font-size: 12px;
+}
+
+.strava_clone .edits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 18px 10px 0;
+}
+
+.strava_clone .footer {
+  background: #F0F0F0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 6px;
+  padding: 0px 10px 6px;
+}
+
+.strava_clone .privacyIcon-1G9Gg {
+  margin: initial;
+}
+
+.strava_clone .date {
+  margin-top: 8px;
+}
+
+/*Ensure pagination is cleared*/
+.container-33o3x {
+  clear: both;
+}

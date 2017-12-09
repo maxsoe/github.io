@@ -1,0 +1,34 @@
+
+
+{
+  "manifest_version": 2,
+
+  "name": "My extenion to modify various sites",
+  "description": "Multiple sites",
+  "version": "0.1",
+  "icons": { "16": "icon/icon16.png",
+           "48": "icon/icon48.png",
+          "128": "icon/icon128.png" },
+
+  "browser_action": {
+    "default_icon": "icon/icon16.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.mapmyride.com/routes/my_routes*"
+      ],
+      "css": ["mapmyride/mycss.css"],
+      "js" : ["js/jquery-3.1.1.min.js","mapmyride/myscript.js"],
+      "run_at": "document_end"
+    }
+  ],
+
+  "web_accessible_resources": [
+        "mapmyride/*"
+    ]
+}
