@@ -1,7 +1,8 @@
 
 /*Stuff to hide*/
 #huckster-desktop-wrapper,
-#huckster-desktop-sidenav {
+#huckster-desktop-sidenav,
+#header-shop {
   display: none !important;
 }
 
