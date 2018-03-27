@@ -1,0 +1,85 @@
+<html lang="en" ng-app="cycleRoutesApp">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cycling routes</title>
+  <link rel="shortcut icon" type="image/jpg" href="favicon.png" />
+
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.css">
+  <!-- Roboto font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+
+  <!-- LeafletJS css -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
+
+  <!-- Custom CSS for app -->
+  <link rel="stylesheet" href="app.css" />
+
+</head>
+
+<body>
+
+  <md-toolbar class="md-primary">
+    <div class="md-toolbar-tools">
+      <!-- <md-button class="md-icon-button" aria-label="Settings" ng-disabled="true">
+        <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
+      </md-button> -->
+      <h1 class="md-flex"><a ui-sref="home">Cycling routes</a></h1>
+    </div>
+  </md-toolbar>
+
+  <div layout="column">
+    <!-- <div id="mymap">Map goes here</div> -->
+    <!-- <gpx-on-map></gpx-on-map> -->
+    <ui-view>
+      Loading routes...
+      <!-- <md-progress-linear md-mode="indeterminate"></md-progress-linear> -->
+    </ui-view>
+  </div>
+
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-messages.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.8/angular-material.min.js"></script>
+
+  <!-- LeafletJS -->
+  <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
+
+  <!-- Required for parsing GPX files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.3.1/gpx.min.js"></script>
+
+  <!-- Application bootstrap  -->
+  <script src="app.js"></script>
+  <script src="app.config.js"></script>
+
+  <!-- Core services: angularCSS -->
+  <script src="core/angular-css.min.js"></script>
+
+  <!-- Core services: numberConversion -->
+  <script src="core/number-conversion.filter.js"></script>
+  <!-- Core services: numberUnits -->
+  <script src="core/number-units.filter.js"></script>
+  <!-- Core services: organiserNameFtl -->
+  <script src="core/organiserName.filter.js"></script>
+
+  <!-- Core services - filter:strReplace -->
+  <script src="core/str-replace.filter.js"></script>
+
+  <!-- Core services:getRoutesSvc -->
+  <script src="core/get-routes-list.service.js"></script>
+
+  <!-- Component: allRoutes -->
+  <script src="all-routes/all-routes.component.js"></script>
+
+  <!-- Component: gpxOnMap -->
+  <script src="gpx-on-map/gpx-on-map.component.js"></script>
+
+</body>
+
+</html>

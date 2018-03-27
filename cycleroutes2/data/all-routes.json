@@ -1,0 +1,167 @@
+[{
+    "created_at": "2017-11-07",
+    "gpx": "1.gpx",
+    "organiser": "ctc",
+    "name": "Selling seashells on the seashore (80km version)",
+    "description": "Revised from 100km down to 80km. Original ride is - Selling seashells on the seashore - 100 km ",
+    "distance": "80583.2956344017",
+    "elevation_gain": "642.8938747155211",
+    "difficulty": "4",
+    "url": "https://maps.openrouteservice.org/directions?n1=50.844792&n2=-0.138622&n3=17&a=51.508475,-0.104413,50.844792,-0.138622&b=1c&c=0&g1=-1&g2=0&h2=3&k1=en-US&k2=km"
+  },
+  {
+    "created_at": "2017-11-07",
+    "gpx": "2.gpx",
+    "organiser": "ctc",
+    "name": "Longer and stronger with The Men of Kent",
+    "description": "A longer ride through Kent to lunch at Rye Harbour#CTC",
+    "distance": "79479.78901932108",
+    "elevation_gain": "622.672495385436",
+    "difficulty": "7",
+    "url": "https://maps.openrouteservice.org/directions?n1=52.204059&n2=0.135671&n3=17&a=51.508475,-0.104413,52.204059,0.135671&b=1c&c=0&g1=-1&g2=0&h2=3&k1=en-US&k2=km"
+  },
+  {
+    "created_at": "2017-11-07T20:11:39Z",
+    "gpx": "3.gpx",
+    "organiser": "ctc",
+    "name": "(Not) To the Tin Pot",
+    "description": "Through Sandridge to lunch at Whitwell, back to Big Chef via Panshanger. No trains or pubs involved.",
+    "distance": "100710",
+    "elevation_gain": "1002",
+    "difficulty": "7",
+    "url": ""
+  },
+  {
+    "created_at": "2017-11-09T20:11:39Z",
+    "gpx": "4.gpx",
+    "organiser": "roo",
+    "name": "Croydon to West - loop",
+    "description": "",
+    "distance": "109730",
+    "elevation_gain": "1070",
+    "difficulty": "7",
+    "url": ""
+  },
+  {
+    "created_at": "2017-09-15T20:11:39Z",
+    "gpx": "5.gpx",
+    "organiser": "ctc",
+    "name": "Harpenden - Cricketers Arms for lunch, Emily's Tea Shop for tea",
+    "description": "",
+    "distance": "72270",
+    "elevation_gain": "798",
+    "difficulty": "6",
+    "url": ""
+  },
+  {
+    "created_at": "2017-09-02T20:11:39Z",
+    "gpx": "6.gpx",
+    "organiser": "friends",
+    "name": "London Cambridge return",
+    "description": "Based on Allan Hutchinson's route",
+    "distance": "222660",
+    "elevation_gain": "2090",
+    "difficulty": "8",
+    "url": ""
+  },
+  {
+    "created_at": "2017-08-14T20:11:39Z",
+    "gpx": "7.gpx",
+    "organiser": "roo",
+    "name": "Croydon to richmond station - A roads",
+    "description": "Very flat, but uses A roads",
+    "distance": "21110",
+    "elevation_gain": "121",
+    "difficulty": "3",
+    "url": ""
+  },
+  {
+    "created_at": "2016-03-25",
+    "gpx": "8.gpx",
+    "organiser": "brewin",
+    "name": "New Forest Summer Sportive - Short route",
+    "description": "Short route for the Brewin Dolphin New Forest Summer Sportive",
+    "distance": "74320",
+    "elevation_gain": "517",
+    "difficulty": "3",
+    "url": "https://maps.openrouteservice.org/directions?n1=50.785753&n2=-1.520576&n3=12&a=50.891353,-1.526563,50.880727,-1.488647,50.855376,-1.469421,50.845351,-1.488647,50.827301,-1.566925,50.823316,-1.579328,50.80702,-1.637306,50.772076,-1.658249,50.784233,-1.578941,50.779458,-1.539803,50.765345,-1.538773,50.767517,-1.465302,50.777287,-1.446075,50.795194,-1.422215,50.845622,-1.451397,50.878127,-1.475945,50.891367,-1.525726&b=1c&c=0&g1=-1&g2=0&h2=3&k1=en-US&k2=km"
+  },
+  {
+    "created_at": "2016-10-23T20:11:39Z",
+    "gpx": "9.gpx",
+    "organiser": "ctc",
+    "name": "Bedford with N Bloom",
+    "description": "Roads: Very smooth except for two 100 metre bits of gravel. There are always potholes in the UK unfortunately.Cars: Almost none except for 100 metres along an A road. Some cars at the end of the ride near the train station.Terrain: Despite the graph on Strava, the terrain is mostly flat.",
+    "distance": "90880",
+    "elevation_gain": "759",
+    "difficulty": "6",
+    "url": ""
+  },
+  {
+    "created_at": "2018-01-23T21:04:39Z",
+    "gpx": "leith-hill-and-box-hill-combo.gpx",
+    "organiser": "roo",
+    "name": "Leith Hill and Box Hill combo",
+    "description": "First tackling Leith Hill and then Box Hill",
+    "distance": "92200",
+    "elevation_gain": "1000",
+    "difficulty": "7",
+    "url": "https://maps.openrouteservice.org/directions?n1=51.1685&n2=-0.270503&n3=11&a=51.33769,-0.11432,51.30275,-0.16644,51.23823,-0.20259,51.2335,-0.26635,51.16931,-0.23729,51.17841,-0.27925,51.12402,-0.3564,51.14587,-0.43822,51.177,-0.35869,51.2578,-0.3229,51.25243,-0.28148,51.33781,-0.11628&b=1c&c=0&g1=-1&g2=0&h2=3&k1=en-US&k2=km"
+  },
+  {
+    "created_at": "2018-01-23T21:19:39Z",
+    "gpx": "around-hemel-hempstead.gpx",
+    "organiser": "roo",
+    "name": "Around Hemel Hampsted",
+    "description": "Cycling around Hemel Hampsted",
+    "distance": "58400",
+    "elevation_gain": "626",
+    "difficulty": "4",
+    "url": "https://maps.openrouteservice.org/directions?n1=51.739611&n2=-0.365952&n3=14&a=51.751239,-0.339607,51.746385,-0.365889,51.721614,-0.430833,51.718503,-0.44434,51.69393,-0.432378,51.672646,-0.459039,51.695176,-0.500486,51.709524,-0.525226,51.733211,-0.49428,51.746567,-0.495508,51.747853,-0.513431,51.761335,-0.511996,51.761269,-0.498993,51.765703,-0.475289,51.772715,-0.480054,51.782616,-0.452439,51.790932,-0.459925,51.79553,-0.451874,51.792097,-0.427408,51.786795,-0.440482,51.760241,-0.422887,51.748456,-0.433625,51.728883,-0.401169,51.741884,-0.36917,51.750047,-0.345339,51.75049,-0.338409&b=1c&c=0&g1=-1&g2=0&h2=3&k1=en-US&k2=km"
+  },
+  {
+    "created_at": "2018-01-23T21:36:39Z",
+    "gpx": "stalbans40k.gpx",
+    "organiser": "roo",
+    "name": "St Albans 40k",
+    "description": "Cycling around St Albans - 40km",
+    "distance": "40100",
+    "elevation_gain": "276",
+    "difficulty": "3",
+    "url": "https://maps.openrouteservice.org/directions?n1=51.69482&n2=-0.361896&n3=11&a=51.750965,-0.339772,51.746084,-0.346626,51.752302,-0.355782,51.756086,-0.350363,51.776621,-0.32757,51.777517,-0.296784,51.750525,-0.264312,51.741905,-0.267299,51.728302,-0.225732,51.708581,-0.218069,51.691346,-0.224618,51.678246,-0.214229,51.672245,-0.23836,51.682468,-0.248035,51.695112,-0.24808,51.694176,-0.283872,51.726963,-0.316896,51.738318,-0.331988,51.749201,-0.335931,51.750071,-0.33715&b=1c&c=0&g1=-1&g2=0&h2=3&k1=en-US&k2=km"
+  },
+  {
+    "created_at": "2018-01-26T21:36:39Z",
+    "gpx": "stalbans45k-2018-01-28.gpx",
+    "organiser": "roo",
+    "name": "St Albans 45k",
+    "description": "Cycling around St Albans - 45km",
+    "distance": "46400",
+    "elevation_gain": "400",
+    "difficulty": "3",
+    "url": "https://maps.openrouteservice.org/directions?n1=51.752164&n2=-0.325821&n3=15&a=51.751709,-0.338263,51.790946,-0.291612,51.807063,-0.342445,51.830646,-0.333653,51.846375,-0.305332,51.815741,-0.291223,51.821564,-0.271616,51.837244,-0.267602,51.840195,-0.245964,51.847727,-0.250845,51.851721,-0.288595,51.833051,-0.298073,51.815126,-0.282744,51.807906,-0.270147,51.795546,-0.279417,51.77775,-0.26361,51.752539,-0.335408&b=1c&c=0&g1=-1&g2=0&h2=3&k1=en-US&k2=km"
+  },
+  {
+    "created_at": "2018-03-23T21:29:39Z",
+    "gpx": "2018-03-24-dorking100.gpx",
+    "organiser": "roo",
+    "name": "Dorking 100",
+    "description": "Goes down Box Hill but then goes up Leith Hill. The last hill back up is a killer",
+    "distance": "80400",
+    "elevation_gain": "1000",
+    "difficulty": "7",
+    "url": "https://maps.openrouteservice.org/directions?n1=51.258632&n2=-0.081629&n3=11&a=51.368705,-0.09916,51.28735,-0.172048,51.250216,-0.289506,51.253851,-0.32743,51.238512,-0.404178,51.213012,-0.414852,51.141372,-0.374509,51.128943,-0.402684,51.124045,-0.356318,51.150207,-0.34172,51.166153,-0.281811,51.210599,-0.256954,51.261974,-0.264015,51.286608,-0.222053&b=1c&c=0&g1=-1&g2=0&h2=3&k1=en-US&k2=km"
+  },
+  {
+    "created_at": "2018-03-11T07:44:39Z",
+    "gpx": "2018-03-11-lutonloop.gpx",
+    "organiser": "roo",
+    "name": "Luton Loop",
+    "description": "Goes around St Albans and Luton. The A roads near Luton Station isn't pleasant. Need to revise route",
+    "distance": "89700",
+    "elevation_gain": "681",
+    "difficulty": "6",
+    "url": "https://maps.openrouteservice.org/directions?n1=51.747179&n2=-0.322943&n3=16&a=51.750069,-0.328255,51.786107,-0.343277,51.793543,-0.456082,51.823437,-0.510745,51.882098,-0.537692,51.88214,-0.414485,51.895073,-0.439271,51.946247,-0.443668,51.929453,-0.338033,51.857269,-0.255817,51.844249,-0.264026,51.831552,-0.268878,51.811769,-0.293887,51.79798,-0.280544,51.784683,-0.262145,51.762656,-0.286685,51.750917,-0.264683,51.749835,-0.326984&b=1c&c=0&g1=-1&g2=0&h2=3&k1=en-US&k2=km"
+  }
+
+]

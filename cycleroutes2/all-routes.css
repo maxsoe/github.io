@@ -1,0 +1,24 @@
+md-card md-card-header:first-child md-card-header-text .md-title + .md-subhead {
+  margin-top: 8px;
+}
+
+md-card md-card-header md-card-header-text .md-subhead{
+  line-height: 20px;
+}
+
+all-routes md-card md-card-header:last-child md-card-avatar {
+  margin-left: 0;
+  margin-right: 16px;
+}
+
+md-card md-card-header + md-card-content {
+  padding-top: 0;
+}
+
+md-card-content>h2 {
+  margin: 0;
+}
+
+.hint-text {
+  opacity: 0.57;
+}
