@@ -3,113 +3,308 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Pimsleur French</title>
-    <link>http://maxsoe.github.io/podcasts/index.html</link>
+    <link>http://maxsoe.github.io/podcasts//french1/index.html</link>
     <description>Learn French</description>
     <itunes:summary>Learn French</itunes:summary>
 
     <generator>Dropcaster 0.0.8</generator>
 
     <item>
-      <title>Pimsleur - French I - Lesson 01</title>
+      <title>Lesson 01</title>
       <itunes:author>Pimsleur</itunes:author>
 
       <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/01.mp3" length="13431626" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/01.mp3</link>
-      <guid isPermaLink="false">8881d290f805d3e88d9decb76a348bc4a259ddeb</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/01.mp3" length="13431626" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/01.mp3</link>
+      <guid isPermaLink="false">2f24895d58ece08dc809bce1141f415cf482aa20</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:01 +0400</pubDate>
       <itunes:duration>1678</itunes:duration>
 
     </item>
 
     <item>
-      <title>Pimsleur - French I - Lesson 07</title>
+      <title>Lesson 15</title>
       <itunes:author>Pimsleur</itunes:author>
 
       <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/07.mp3" length="13442858" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/07.mp3</link>
-      <guid isPermaLink="false">2e3fbc1c3b357902bbf04dc83392398b997b245a</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1680</itunes:duration>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/15.mp3" length="12807410" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/15.mp3</link>
+      <guid isPermaLink="false">c7da61a05440ef72f3f0df9fa90911e648713b43</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:15 +0400</pubDate>
+      <itunes:duration>1600</itunes:duration>
 
     </item>
 
     <item>
-      <title>Pimsleur - French I - Lesson 23</title>
+      <title>Lesson 14</title>
       <itunes:author>Pimsleur</itunes:author>
 
       <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/23.mp3" length="12939694" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/23.mp3</link>
-      <guid isPermaLink="false">e4c7b0477cfdf2f284b6d12c448356948b13561a</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1617</itunes:duration>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/14.mp3" length="12955850" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/14.mp3</link>
+      <guid isPermaLink="false">d33ffd65530ac7016a5e95e4ac9afc664c3f9b48</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:14 +0400</pubDate>
+      <itunes:duration>1619</itunes:duration>
 
     </item>
 
     <item>
-      <title>Pimsleur - French I - Lesson 09</title>
+      <title>Lesson 13</title>
       <itunes:author>Pimsleur</itunes:author>
 
       <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/09.mp3" length="14173802" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/09.mp3</link>
-      <guid isPermaLink="false">dad960a1886031d72697e4fef186c8d3f05f3603</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/13.mp3" length="12591242" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/13.mp3</link>
+      <guid isPermaLink="false">0de4d0a490b22eba5354ef3aff61d12fc8582339</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:13 +0400</pubDate>
+      <itunes:duration>1573</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 12</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/12.mp3" length="12832874" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/12.mp3</link>
+      <guid isPermaLink="false">0b6c2e6fa53c1e41a247d5c5c7b8e4c1f4d1ea10</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:12 +0400</pubDate>
+      <itunes:duration>1603</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 11</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/11.mp3" length="13299434" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/11.mp3</link>
+      <guid isPermaLink="false">87d6db5524847e462d4bee58ccc4ecb293dd97f9</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:11 +0400</pubDate>
+      <itunes:duration>1662</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 10</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/10.mp3" length="12696650" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/10.mp3</link>
+      <guid isPermaLink="false">172b9380df20d6bd806d539b55f8c813d0107b83</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:10 +0400</pubDate>
+      <itunes:duration>1586</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 09</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/09.mp3" length="14173802" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/09.mp3</link>
+      <guid isPermaLink="false">82e93c72357c1cca8a02dee60de1a500b616b268</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:09 +0400</pubDate>
       <itunes:duration>1771</itunes:duration>
 
     </item>
 
     <item>
-      <title>Pimsleur - French I - Lesson 21</title>
+      <title>Lesson 08</title>
       <itunes:author>Pimsleur</itunes:author>
 
       <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/21.mp3" length="12771674" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/21.mp3</link>
-      <guid isPermaLink="false">5e1d5f152fd06d8ba21a7dd1b4d47fdde5b9f371</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1596</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 20</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/20.mp3" length="12170231" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/20.mp3</link>
-      <guid isPermaLink="false">1b3a8c977029c8e851b7f98517381db6a1c8d641</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1521</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 08</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/08.mp3" length="13738922" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/08.mp3</link>
-      <guid isPermaLink="false">be9169c455defa283da53f253f6369982f75d7cf</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/08.mp3" length="13738922" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/08.mp3</link>
+      <guid isPermaLink="false">e9dbdaf2e9c8545b380dcb910b55383a4500c950</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:08 +0400</pubDate>
       <itunes:duration>1717</itunes:duration>
 
     </item>
 
     <item>
-      <title>Pimsleur - French I - Lesson 30</title>
+      <title>Lesson 07</title>
       <itunes:author>Pimsleur</itunes:author>
 
       <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/30.mp3" length="12255286" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/30.mp3</link>
-      <guid isPermaLink="false">0a6813b3107c49774871ecdcc866623cda42385c</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1531</itunes:duration>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/07.mp3" length="13442858" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/07.mp3</link>
+      <guid isPermaLink="false">07f167ef1ad993d8123b03331a86d0f5d04272bc</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:07 +0400</pubDate>
+      <itunes:duration>1680</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 03</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/03.mp3" length="13564970" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/03.mp3</link>
+      <guid isPermaLink="false">437f5ebd22483d7e5253e8023ce8e49c0291ffad</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:03 +0400</pubDate>
+      <itunes:duration>1695</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 02</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/02.mp3" length="13529017" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/02.mp3</link>
+      <guid isPermaLink="false">5651e214fdb68d019871f4423a841fd9ed4d223f</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:02 +0400</pubDate>
+      <itunes:duration>1690</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 04</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/04.mp3" length="13391594" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/04.mp3</link>
+      <guid isPermaLink="false">2920b844edbea94eac07189d60f78a09c218c4e6</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:04 +0400</pubDate>
+      <itunes:duration>1673</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 05</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/05.mp3" length="13429322" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/05.mp3</link>
+      <guid isPermaLink="false">9f9475ea5384777b4ded78495372a8130827b2cd</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:05 +0400</pubDate>
+      <itunes:duration>1678</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 06</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/06.mp3" length="13490378" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/06.mp3</link>
+      <guid isPermaLink="false">84a47bda14f04c2f41aea03699ebc68150a0120f</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:06 +0400</pubDate>
+      <itunes:duration>1686</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 16</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/16.mp3" length="12480074" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/16.mp3</link>
+      <guid isPermaLink="false">8fa8be9366dda33ab99b8f06d4132f82f9ae6f17</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:16 +0400</pubDate>
+      <itunes:duration>1559</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 17</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/17.mp3" length="12660288" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/17.mp3</link>
+      <guid isPermaLink="false">84cc668b70a3b1f0db86cec1029e5b6be5e5e8df</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:17 +0400</pubDate>
+      <itunes:duration>1582</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 18</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/18.mp3" length="12690799" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/18.mp3</link>
+      <guid isPermaLink="false">aa0182af3837d109c34f827d1fd19161adb102ef</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:18 +0400</pubDate>
+      <itunes:duration>1586</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 19</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/19.mp3" length="12932798" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/19.mp3</link>
+      <guid isPermaLink="false">cdc1422c2d803e857639d7939bf40b112263009d</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:19 +0400</pubDate>
+      <itunes:duration>1616</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 20</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/20.mp3" length="12170231" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/20.mp3</link>
+      <guid isPermaLink="false">cd7793f8ca70acd34a2911a0b9a32fcf3c639fda</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:20 +0400</pubDate>
+      <itunes:duration>1521</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 21</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/21.mp3" length="12771674" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/21.mp3</link>
+      <guid isPermaLink="false">46cc27bb29d791bd608dd20ad4da3f83cd6087a5</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:21 +0400</pubDate>
+      <itunes:duration>1596</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 22</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/22.mp3" length="12527795" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/22.mp3</link>
+      <guid isPermaLink="false">f5f743b53201383eab93ca0d8fa6d2553f3cebc4</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:22 +0400</pubDate>
+      <itunes:duration>1565</itunes:duration>
+
+    </item>
+
+    <item>
+      <title>Lesson 23</title>
+      <itunes:author>Pimsleur</itunes:author>
+
+      <itunes:image href=""/>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/23.mp3" length="12939694" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/23.mp3</link>
+      <guid isPermaLink="false">c4c27a9fc1777a18336d9037800bcf08fb0a6872</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:23 +0400</pubDate>
+      <itunes:duration>1617</itunes:duration>
 
     </item>
 
@@ -118,284 +313,89 @@
       <itunes:author>Pimsleur</itunes:author>
 
       <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/24.mp3" length="12382554" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/24.mp3</link>
-      <guid isPermaLink="false">aae445c3184c980645b1fb079f21daef745ba68e</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/24.mp3" length="12382554" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/24.mp3</link>
+      <guid isPermaLink="false">002b0a27f65207e356d0737a514dd872243758cb</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:24 +0400</pubDate>
       <itunes:duration>1547</itunes:duration>
 
     </item>
 
     <item>
-      <title>Pimsleur - French I - Lesson 18</title>
+      <title>Lesson 25</title>
       <itunes:author>Pimsleur</itunes:author>
 
       <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/18.mp3" length="12690799" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/18.mp3</link>
-      <guid isPermaLink="false">78bcb67fc4c8b307acd21b9311c518508cab995a</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1586</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 19</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/19.mp3" length="12932798" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/19.mp3</link>
-      <guid isPermaLink="false">d96422f195e3d589b300cc0a764c82ef4220fcbd</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1616</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 25</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/25.mp3" length="12750777" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/25.mp3</link>
-      <guid isPermaLink="false">0e1fd1ecabcc4494c37349fdb357daade769e056</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/25.mp3" length="12750777" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/25.mp3</link>
+      <guid isPermaLink="false">c4913f2187cf9de18f147745383be7f06322e2d1</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:25 +0400</pubDate>
       <itunes:duration>1593</itunes:duration>
 
     </item>
 
     <item>
-      <title>Pimsleur - French I - Lesson 27</title>
+      <title>Lesson 26</title>
       <itunes:author>Pimsleur</itunes:author>
 
       <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/27.mp3" length="13066336" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/27.mp3</link>
-      <guid isPermaLink="false">1758db09ef408639a3a245f975b56acd363e492a</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1633</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 26</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/26.mp3" length="12523225" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/26.mp3</link>
-      <guid isPermaLink="false">4703a2eb3b919a18ed2f063ac48d92c9ce817a0f</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/26.mp3" length="12523225" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/26.mp3</link>
+      <guid isPermaLink="false">fcf4b5b77a8c3e4d93d751e9e20b7d7b1a20261c</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:26 +0400</pubDate>
       <itunes:duration>1557</itunes:duration>
 
     </item>
 
     <item>
-      <title>Pimsleur - French I - Lesson 03</title>
+      <title>Lesson 27</title>
       <itunes:author>Pimsleur</itunes:author>
 
       <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/03.mp3" length="13564970" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/03.mp3</link>
-      <guid isPermaLink="false">ba3dd127a9800c4ecd845628b9cf03c7d30a6f38</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1695</itunes:duration>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/27.mp3" length="13066336" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/27.mp3</link>
+      <guid isPermaLink="false">fb0b98814c96680c8644fc613e52073053959355</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:27 +0400</pubDate>
+      <itunes:duration>1633</itunes:duration>
 
     </item>
 
     <item>
-      <title>Pimsleur - French I - Lesson 17</title>
+      <title>Lesson 28</title>
       <itunes:author>Pimsleur</itunes:author>
 
       <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/17.mp3" length="12660288" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/17.mp3</link>
-      <guid isPermaLink="false">c961839fbc75112f2e1a6df905a33f90e54f56bb</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1582</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 16</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/16.mp3" length="12480074" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/16.mp3</link>
-      <guid isPermaLink="false">61481420373cb37d58d955429a54589bd770a5ed</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1559</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 02</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/02.mp3" length="13529017" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/02.mp3</link>
-      <guid isPermaLink="false">024b1f26904bdea42c99bbd113197b06bd7f429d</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1690</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 28</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/28.mp3" length="11785082" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/28.mp3</link>
-      <guid isPermaLink="false">34a769ba108baea5a84f674365b2456e80dfff4d</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/28.mp3" length="11785082" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/28.mp3</link>
+      <guid isPermaLink="false">67d5ab224fa5f820b9e98967237341b40c0c40d3</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:28 +0400</pubDate>
       <itunes:duration>1472</itunes:duration>
 
     </item>
 
     <item>
-      <title>Pimsleur - French I - Lesson 14</title>
+      <title>Lesson 29</title>
       <itunes:author>Pimsleur</itunes:author>
 
       <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/14.mp3" length="12955850" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/14.mp3</link>
-      <guid isPermaLink="false">2b074845aa3f713c3ca6ba0104261517e5e507a8</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1619</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 15</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/15.mp3" length="12807410" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/15.mp3</link>
-      <guid isPermaLink="false">a0382dd7bbdd2ea82f2a57a8ed44cc04e07978dc</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1600</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 29</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/29.mp3" length="12255286" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/29.mp3</link>
-      <guid isPermaLink="false">f56205a69fc7893d6e4f0759838114e404785282</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/29.mp3" length="12255286" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/29.mp3</link>
+      <guid isPermaLink="false">9a6b99e65fd71fafe6ae61991c095635985a9b95</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:29 +0400</pubDate>
       <itunes:duration>1531</itunes:duration>
 
     </item>
 
     <item>
-      <title>Pimsleur - French I - Lesson 11</title>
+      <title>Lesson 30</title>
       <itunes:author>Pimsleur</itunes:author>
 
       <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/11.mp3" length="13299434" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/11.mp3</link>
-      <guid isPermaLink="false">4a770e7173add1ddd045d4cbeb6490abecacb4a6</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1662</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 05</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/05.mp3" length="13429322" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/05.mp3</link>
-      <guid isPermaLink="false">622d52f659bf9f2ffbe720e540a27b25ab1ba58c</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1678</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 04</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/04.mp3" length="13391594" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/04.mp3</link>
-      <guid isPermaLink="false">938df0981566cfc75656a422f0c4341b9ccf3f43</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1673</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 10</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/10.mp3" length="12696650" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/10.mp3</link>
-      <guid isPermaLink="false">1f99253c48d6bee0fc439f8b1e16f84adb724a80</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1586</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 06</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/06.mp3" length="13490378" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/06.mp3</link>
-      <guid isPermaLink="false">32beb63cf8565957266bf07d13d8d7045fc95f5d</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1686</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 12</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/12.mp3" length="12832874" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/12.mp3</link>
-      <guid isPermaLink="false">ca96930385e0d57fb5b721dfaa950b21a79a39a8</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1603</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 13</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/13.mp3" length="12591242" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/13.mp3</link>
-      <guid isPermaLink="false">edaf49197f433f42786e6d601981cdb210410bd5</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1573</itunes:duration>
-
-    </item>
-
-    <item>
-      <title>Pimsleur - French I - Lesson 22</title>
-      <itunes:author>Pimsleur</itunes:author>
-
-      <itunes:image href=""/>
-      <enclosure url="http://maxsoe.github.io/podcasts/22.mp3" length="12527795" type="audio/mp3"/>
-      <link>http://maxsoe.github.io/podcasts/22.mp3</link>
-      <guid isPermaLink="false">961dccddb4199f6f162935b76aab2408cc61040c</guid>
-      <pubDate>Sat, 25 Aug 2018 09:28:14 +0400</pubDate>
-      <itunes:duration>1565</itunes:duration>
+      <enclosure url="http://maxsoe.github.io/podcasts/french1/30.mp3" length="12255286" type="audio/mp3"/>
+      <link>http://maxsoe.github.io/podcasts/french1/30.mp3</link>
+      <guid isPermaLink="false">a342a36cdfb2c001f15e3870b5174cc2c74e95fd</guid>
+      <pubDate>Sat, 25 Aug 2018 10:00:30 +0400</pubDate>
+      <itunes:duration>1531</itunes:duration>
 
     </item>
 
