@@ -1,4 +1,3 @@
-
 /*Stuff to hide*/
 #huckster-desktop-wrapper,
 #huckster-desktop-sidenav,
@@ -8,7 +7,7 @@
 
 /*Testing if the script is working*/
 #ondeck-wrapper {
-  background: green;
+  background: white;
 }
 
 #watch-now-content .streaming-links {
