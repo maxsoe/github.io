@@ -3,5 +3,3 @@ javascript: (function () {
     jsCode.setAttribute('src', 'http://maxsoe.github.io/experimental/tubeplus/tvshows.js');                  
   document.body.appendChild(jsCode); 
  }());
- 
- 
