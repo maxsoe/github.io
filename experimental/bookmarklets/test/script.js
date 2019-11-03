@@ -9,6 +9,6 @@ console.log("This is the correct branch");
 
 // console.log(container[0]);
 
-var target = $("#lga");
+var target = $("body");
 $target.css("background-color","red");
 console.log("target");
