@@ -1,1 +1,1 @@
-document.body.style.background = "red";
+console.log("logging from bookmarklet");
