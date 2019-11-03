@@ -1,4 +1,10 @@
 javascript: (function() {
-  document.body.appendChild(document.createElement("script")).src =
-  "http://maxsoe.github.io/experimental/bookmarklets/vidads/script.js";
+  runme();
 })();
+
+function runme() {
+  var sideAds = document.getElementById("video-ad");
+  sideAds.style.display = "none";
+  var footerAds = document.getElementById("ad-footer");
+  footerAds.style.display = "none";
+}
