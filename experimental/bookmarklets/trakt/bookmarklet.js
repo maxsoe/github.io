@@ -50,20 +50,3 @@ function runme() {
     }
   }
 }
-<<<<<<< HEAD
-=======
-
-middleLight = middleLight[0];
-middleLight.style.backgroundColor = "red";
-middleLight = middleLight[1];
-middleLight.style.backgroundColor = "red";
-
-middleDark = middleDark[0];
-middleDark.style.backgroundColor = "orange";
-
-bottomLight = bottomLight[0];
-bottomLight.style.backgroundColor = "yellow";
-
-bottomDark = bottomDark[0];
-bottomDark.style.backgroundColor = "green";
->>>>>>> fc7e0012f09a77e83eeee1f9eb95339d5afb4483
