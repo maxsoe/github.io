@@ -1,8 +1,9 @@
 javascript: (function() {
-  runme();
+  removeAds();
+  downloadLinks();
 })();
 
-function runme() {
+function removeAds() {
   var topAd = document.getElementById("hu-ck-ster-desk-top-wrapper");
   if (topAd) {
     topAd.parentNode.removeChild(topAd);
@@ -47,6 +48,36 @@ function runme() {
     for (x of bottomDark) {
       x.style.backgroundColor = "green";
       x.parentNode.removeChild(x);
+    }
+  }
+}
+
+function downloadLinks() {
+  var myKeyValues = {
+    "The Flash": "tt3107288",
+    "Fresh Off the Boat": "tt3551096",
+    "It's Always Sunny in Philadelphia": "tt0472954",
+    "Bob's Burgers":"tt1561755",
+    "Supergirl":"tt4016454",
+    "The Simpsons": "tt0096697"
+  };
+
+  var onDeckShows = document.getElementById("ondeck-shows");
+
+  var myShows = onDeckShows.getElementsByClassName("titles");
+  if (myShows.length > 0) {
+    console.log("myShows:", myShows);
+    for (codeBlock of myShows) {
+      var title = codeBlock.children[1].children[2].innerHTML;
+      console.log("Title:", title);
+      var url = "http://rarbg.to/tv/" + myKeyValues[title] + "/";
+      console.log("URL:", url);
+
+      var anchor = document.createElement("A");
+      anchor.href= url;
+      anchor.text= "Download";
+
+      codeBlock.appendChild(anchor);
     }
   }
 }
