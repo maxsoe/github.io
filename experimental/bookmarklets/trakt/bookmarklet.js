@@ -54,13 +54,14 @@ function removeAds() {
 
 function downloadLinks() {
   var myKeyValues = {
-    "Bob's Burgers":"tt1561755",
+    "Bob's Burgers": "tt1561755",
     "Fresh Off the Boat": "tt3551096",
     "It's Always Sunny in Philadelphia": "tt0472954",
-    "Supergirl":"tt4016454",
+    "Modern Family": "tt1442437",
+    "Supergirl": "tt4016454",
     "South Park": "tt0121955",
     "The Flash": "tt3107288",
-    "The Simpsons": "tt0096697",
+    "The Simpsons": "tt0096697"
   };
 
   var onDeckShows = document.getElementById("ondeck-shows");
@@ -75,8 +76,8 @@ function downloadLinks() {
       console.log("URL:", url);
 
       var anchor = document.createElement("A");
-      anchor.href= url;
-      anchor.text= "Download";
+      anchor.href = url;
+      anchor.text = "Download";
 
       codeBlock.appendChild(anchor);
     }
