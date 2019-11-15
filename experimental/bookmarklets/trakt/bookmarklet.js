@@ -60,6 +60,7 @@ function downloadLinks() {
     "Modern Family": "tt1442437",
     "Rick and Morty": "tt2861424",
     "Silicon Valley": "tt2575988",
+    "The Mandalorian": "tt8111088",
     "South Park": "tt0121955",
     "Supergirl": "tt4016454",
     "The Flash": "tt3107288",
