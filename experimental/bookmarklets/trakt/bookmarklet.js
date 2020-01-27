@@ -55,6 +55,7 @@ function removeAds() {
 function downloadLinks() {
   var myKeyValues = {
     "Bob's Burgers": "tt1561755",
+    "Curb Your Enthusiasm": "tt0264235",
     "Fresh Off the Boat": "tt3551096",
     "It's Always Sunny in Philadelphia": "tt0472954",
     "Modern Family": "tt1442437",
