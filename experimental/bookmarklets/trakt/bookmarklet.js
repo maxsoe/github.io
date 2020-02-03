@@ -63,6 +63,7 @@ function downloadLinks() {
     "Silicon Valley": "tt2575988",
     "The Mandalorian": "tt8111088",
     "South Park": "tt0121955",
+    "Star Trek: Picard": "tt8806524",
     "Supergirl": "tt4016454",
     "The Flash": "tt3107288",
     "The Simpsons": "tt0096697"
